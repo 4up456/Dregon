@@ -1,0 +1,67 @@
+/* COMMON */
+.inner {
+  background-color: rgb(0, 124, 54);
+  width: 700px;
+  height: 130px;
+  margin: auto;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+/* HEADER */
+header {
+  background-color: royalblue;
+}
+header .titleName {
+  font-size: 50px;
+  width: max-content;
+  margin:auto;
+  padding: 15px;
+  font-family: 'Nanum Myeongjo', serif;
+  color: #fff;
+}
+header .titleName .material-icons {
+  font-size: 35px;
+}
+
+header ul.main-menu {
+  display: flex;
+  font-size: 20px;
+  font-family: 'Nanum Myeongjo', serif;
+  position: absolute;
+  bottom: 0;
+}
+header ul.main-menu li {
+
+}
+header ul.main-menu li a {
+  padding: 8px 15px 7px;
+  box-sizing:border-box;
+  border-radius: 10px 10px 0 0;
+  color: rgb(134, 77, 2);
+  font-weight: 700;
+  background-color: rgb(246, 246, 203);
+  border: 2px solid rgb(175, 99, 1);
+  border-bottom: none;
+  box-sizing: border-box;
+  margin: .2px;
+}
+header ul.main-menu li a:hover {
+  border-bottom: none;
+  background-color: rgb(160, 99, 1);
+  color: #fff;
+}
+header ul.main-menu li.magic a {
+  
+}
+header ul.main-menu li.status a{
+
+}
+header ul.main-menu li.history a{
+
+}
+header ul.main-menu li.challenge a {
+
+}
